@@ -37,7 +37,7 @@ class _AddDrinkPageState extends State<AddDrinkPage> {
 
     final model = GenerativeModel(
       model: 'gemini-1.5-flash',
-      apiKey: dotenv.env['GeminiAPI']!, // API key from environment variables
+      apiKey: "AIzaSyAAZ8IS7CTL9bSUoisRgX7G62lwlBfgaVc", // API key from environment variables
     );
 
     final prompt = """
